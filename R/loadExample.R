@@ -19,7 +19,7 @@
 #}
 loadExample <- function(dataset){
   res <- NULL
-  if (data=="dsAtac_ia_example"){
+  if (dataset=="dsAtac_ia_example"){
   	res <- ChrAccR::loadDsAcc(system.file("extdata", "dsAtac_ia_example", package="ChrAccRex"))
   } else {
   	stop(paste("Unknown dataset:", dataset))
