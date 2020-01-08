@@ -31,6 +31,8 @@ loadExample <- function(dataset){
   	res <- ChrAccR::loadDsAcc(system.file("extdata", "dsAtac_ia_example", package="ChrAccRex"))
   } else if (dataset=="dsAtacSc_hema_example"){
   	res <- ChrAccR::loadDsAcc(system.file("extdata", "dsAtacSc_hema_example", package="ChrAccRex"))
+  } else if (dataset=="itLsiObj_hema_example"){
+  	res <- readRDS(system.file("extdata", "dsAtacSc_hema_example", "itLsiObj.rds", package="ChrAccRex"))
   } else {
   	stop(paste("Unknown dataset:", dataset))
   }
