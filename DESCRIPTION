@@ -3,9 +3,9 @@ Title: ChrAccRex: Example data for ChrAccR
 Description: A data package that contains example data for the ChrAccR package
 Author: Fabian Mueller
 Maintainer: Fabian Mueller <muellerf@stanford.edu>
-Date: 2019-05-24
+Date: 2020-01-08
 Depends:
     ChrAccR
 License: GPL-2
-Version: 0.1
+Version: 0.2
 RoxygenNote: 6.1.1
